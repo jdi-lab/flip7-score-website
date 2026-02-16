@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flip 7 Score Tracker</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: #f5f9fa;
+            color: #2c3e50;
+            min-height: 100vh;
+        }
+
+        .hero {
+            text-align: center;
+            padding: 80px 20px 60px;
+            background: linear-gradient(135deg, #e0f4f5 0%, #d4eef6 50%, #e8f0fe 100%);
+        }
+
+        .logo {
+            width: 150px;
+            height: 150px;
+            margin-bottom: 20px;
+            border-radius: 24px;
+        }
+
+        .hero h1 {
+            font-size: 2.5rem;
+            margin-bottom: 16px;
+            color: #1E88E5;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            color: #5a6d7e;
+            max-width: 500px;
+            margin: 0 auto 32px;
+        }
+
+        .badge {
+            display: inline-block;
+        }
+
+        .badge img {
+            height: 60px;
+        }
+
+        .features {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 60px 20px;
+        }
+
+        .features h2 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 40px;
+            color: #1E88E5;
+        }
+
+        .feature-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 24px;
+        }
+
+        .feature-card {
+            background: #ffffff;
+            border-radius: 20px;
+            padding: 24px;
+            border: 1px solid #d8ecee;
+            box-shadow: 0 2px 8px rgba(128, 203, 209, 0.1);
+        }
+
+        .feature-card h3 {
+            font-size: 1.1rem;
+            margin-bottom: 8px;
+            color: #E91E63;
+        }
+
+        .feature-card p {
+            font-size: 0.95rem;
+            color: #6b7c8a;
+            line-height: 1.5;
+        }
+
+        .footer {
+            text-align: center;
+            padding: 40px 20px;
+            border-top: 1px solid #d8ecee;
+            color: #8a9baa;
+            font-size: 0.9rem;
+        }
+
+        .footer a {
+            color: #1E88E5;
+            text-decoration: none;
+        }
+
+        .footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <section class="hero">
+        <img src="Flip 7 Score Logo.png" alt="Flip 7 Score Tracker Logo" class="logo">
+        <h1>Flip 7 Score Tracker</h1>
+        <p>The easiest way to keep score for your Flip 7 card games. Track up to 18 players, calculate scores automatically, and review your game history.</p>
+        <a class="badge" href="https://play.google.com/store/apps/details?id=com.flip7score">
+            <img src="https://play.google.com/intl/en_us/badges/static/images/badges/en_badge_web_generic.png" alt="Get it on Google Play" height="60">
+        </a>
+    </section>
+
+    <section class="features">
+        <h2>Features</h2>
+        <div class="feature-grid">
+            <div class="feature-card">
+                <h3>Automatic Scoring</h3>
+                <p>Select your cards and let the app calculate scores automatically, including the x2 multiplier and Flip 7 bonus.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Up to 18 Players</h3>
+                <p>Perfect for any group size. Track scores for 1 to 18 players in a single game session.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Live Rankings</h3>
+                <p>See real-time standings with color-coded player cards and automatic rank updates after each round.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Game History</h3>
+                <p>Review past games, see final scores, and keep track of your wins over time.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Score Formula</h3>
+                <p>View the full score breakdown for every round so you can verify each calculation.</p>
+            </div>
+            <div class="feature-card">
+                <h3>Quick Rematch</h3>
+                <p>Start a new game with the same players instantly when a game ends.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p><a href="privacy.html">Privacy Policy</a></p>
+        <p style="margin-top: 12px;">&copy; 2026 Flip 7 Score Tracker</p>
+    </footer>
+</body>
+</html>
